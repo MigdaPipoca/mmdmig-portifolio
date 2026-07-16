@@ -1,0 +1,7 @@
+body.theme-light{
+
+    background:
+        radial-gradient(circle at top,#ffffff 0%,transparent 45%),
+        linear-gradient(180deg,#e8f4f8,#b8e6f0);
+
+}

@@ -1,3 +1,9 @@
+#app{
+
+padding-top:120px;
+
+}
+
 html{
 
 height:100%;
@@ -89,5 +95,31 @@ padding:
 .hidden{
 
 display:none;
+
+}
+
+.page{
+
+    opacity:0;
+
+    transform:translateY(20px);
+
+    pointer-events:none;
+
+    transition:
+
+        opacity .35s,
+
+        transform .35s;
+
+}
+
+.page.active{
+
+    opacity:1;
+
+    transform:none;
+
+    pointer-events:auto;
 
 }
